@@ -15,7 +15,7 @@ int main(void)
 	// Your code below here
 
 	char* name = "xianye";
-	char* email = "xianye.wu@manchester.ac.uk";
+	char* email = "xianye.wu@student.manchester.ac.uk";
 
 	// 输出JSON格式的文本
 	printf("{\"name\":\"%s\",\"email\":\"%s\",\"number1\":%.2f,\"number2\":%.3e}\n", name, email, num, num);
